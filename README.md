@@ -36,15 +36,15 @@ assets/
 .github/workflows/pages.yml
 ```
 
-## ⚠️ Pendências antes de publicar
+## Dados já configurados
 
-1. **WhatsApp**: preencher `whatsapp` em `assets/js/config.js` (formato `5564999999999`). Sem isso, os botões levam ao formulário e o envio da lista avisa que não está configurado.
-2. **Horário de funcionamento**: preencher `horarios` em `config.js`.
-3. **Instagram**: preencher `instagram` em `config.js` (o botão só aparece se houver link).
-4. **Foto da fachada**: salvar como `assets/img/fachada.jpg`. Enquanto não existir, aparece um painel de marca no lugar.
-5. **Número do endereço**: o site usa **nº 45** (conforme confirmado no projeto). O cadastro público do CNPJ lista **nº 47** — por isso, conferir o pino no mapa após publicar.
-6. **Categorias**: "Base e estrutura" e "Hidráulica" correspondem à atividade registrada da empresa (materiais de construção em geral e hidráulicos). Elétrica, tintas, ferragens e reparos são sugestões de mercado — **confirmar com o lojista** e ajustar em `index.html`.
-7. **Retirada na loja**: o passo 3 do orçamento fala em retirada. Se a loja entrega, alterar o texto.
+WhatsApp, Instagram (@temde_tudolagoazul), horários (seg–sex 7h–18h, sáb 7h–12h) e a informação de entrega (somente Três Ranchos-GO) vieram do cadastro da própria loja. Edite em `assets/js/config.js`.
+
+## ⚠️ Pendências
+
+1. **Foto da fachada**: salvar como `assets/img/fachada.jpg`. Enquanto não existir, aparece um painel de marca no lugar.
+2. **Mapa incorporado**: usa o endereço (nº 45). O botão "Abrir no Google Maps" usa o link oficial da loja. Se o pino do mapa incorporado ficar errado, trocar o `src` do iframe pelo código "Incorporar" do Google Maps.
+3. **Categorias**: "Base e estrutura" e "Hidráulica" correspondem à atividade registrada da empresa. Elétrica, tintas, ferragens e reparos são sugestões — **confirmar com o lojista** e ajustar em `index.html`.
 
 ## Publicar no GitHub Pages
 
