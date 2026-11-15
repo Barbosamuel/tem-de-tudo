@@ -33,7 +33,6 @@ assets/
   js/main.js
   img/favicon.svg
   img/fachada.jpg  ← (opcional) coloque a foto da fachada com esse nome
-.github/workflows/pages.yml
 ```
 
 ## Dados já configurados
@@ -48,12 +47,9 @@ WhatsApp, Instagram (@temde_tudolagoazul), horários (seg–sex 7h–18h, sáb 7
 
 ## Publicar no GitHub Pages
 
-```bash
-git remote add origin https://github.com/<usuario>/tem-de-tudo.git
-git push -u origin main
-```
+No GitHub: **Settings → Pages → Build and deployment → Source: Deploy from a branch → Branch: `main` / `(root)` → Save**.
 
-No GitHub: **Settings → Pages → Source: GitHub Actions**. O workflow em `.github/workflows/pages.yml` publica a cada push na `main`.
+O site fica em `https://<usuario>.github.io/tem-de-tudo/` e é atualizado a cada push na `main` (leva 1 a 2 minutos). O arquivo `.nojekyll` já está no projeto.
 
 Teste local:
 
