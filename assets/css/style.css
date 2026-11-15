@@ -77,15 +77,16 @@ p { margin: 0; }
 .brand { display: flex; align-items: center; gap: .7rem; text-decoration: none; }
 .brand img { border-radius: 8px; }
 .brand-text { display: grid; line-height: 1; }
-.brand-text strong { font-family: var(--display); font-size: 1.6rem; text-transform: uppercase; letter-spacing: .02em; }
+.brand-text strong { font-family: var(--display); font-size: clamp(1.15rem, 5vw, 1.6rem); text-transform: uppercase; letter-spacing: .02em; white-space: nowrap; }
+.brand-text strong i { font-style: normal; background: var(--yellow); box-shadow: 0 2px 0 var(--ink); padding: 0 .2em; margin-left: .1em; }
 .brand-text small { font-size: .7rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-3); margin-top: .2rem; }
-.nav { display: none; gap: 1.75rem; }
+.nav { display: none; gap: 1.5rem; }
 .nav a {
   font-family: var(--display); font-weight: 600; font-size: 1.15rem; text-transform: uppercase; letter-spacing: .06em;
-  text-decoration: none; padding-block: .25rem; border-bottom: 3px solid transparent;
+  text-decoration: none; padding-block: .25rem; border-bottom: 3px solid transparent; white-space: nowrap;
 }
 .nav a:hover { border-bottom-color: var(--yellow); }
-@media (min-width: 860px) { .nav { display: flex; } }
+@media (min-width: 1040px) { .nav { display: flex; } }
 
 /* ---------- Eyebrow ---------- */
 .eyebrow {
@@ -118,7 +119,7 @@ p { margin: 0; }
   padding: 0 .12em; margin-left: -.06em;
   box-shadow: 0 .06em 0 var(--ink);
 }
-.lead { max-width: 34rem; font-size: 1.2rem; margin-top: 1.5rem; color: var(--ink-2); }
+.lead { max-width: 34rem; font-size: 1.2rem; margin-top: 1.9rem; color: var(--ink-2); }
 .cta-row { display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 2rem; }
 
 /* Ticket (lista de obra) */
@@ -196,7 +197,7 @@ p { margin: 0; }
 }
 .aisle-sign span { font-size: .95rem; }
 .aisle-sign b { font-size: 2.2rem; line-height: 1; letter-spacing: 0; }
-.aisle h3 { font-size: 2rem; font-weight: 800; }
+.aisle h3 { font-size: 1.9rem; font-weight: 800; line-height: .95; }
 .aisle p { color: var(--ink-3); }
 .tags { list-style: none; padding: 0; margin: .75rem 0 0; display: flex; flex-wrap: wrap; gap: .45rem; }
 .tags li {
@@ -204,6 +205,10 @@ p { margin: 0; }
   padding: .25rem .65rem;
   background: var(--paper); border: 1.5px solid var(--ink); border-radius: 999px;
 }
+
+.ico-s { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; flex: none; }
+.aisle-title { display: flex; align-items: center; gap: .85rem; }
+.aisle-icon { width: 3.4rem; height: 3.4rem; padding: .7rem; color: var(--yellow); background: var(--ink); border-radius: var(--r); }
 
 /* ---------- Orçamento ---------- */
 .quote-grid { display: grid; gap: 3rem; align-items: start; }

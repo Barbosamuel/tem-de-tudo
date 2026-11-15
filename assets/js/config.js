@@ -16,5 +16,5 @@ window.TEM_DE_TUDO = {
   ],
 
   // Mensagem inicial quando o cliente clica nos botões de WhatsApp.
-  saudacao: "Olá, Tem de Tudo! Gostaria de fazer um orçamento."
+  saudacao: "Olá, Tem de Tudo Lago Azul! Gostaria de fazer um orçamento."
 };

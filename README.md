@@ -1,6 +1,6 @@
-# Tem de Tudo — site institucional
+# Tem de Tudo Lago Azul — site institucional
 
-Site estático (HTML + CSS + JS, sem build) da loja de materiais de construção **Tem de Tudo**, em Três Ranchos-GO.
+Site estático (HTML + CSS + JS, sem build) da **Tem de Tudo Lago Azul**, agropecuária e ferragista em Três Ranchos-GO.
 
 ## Identidade visual
 
@@ -41,9 +41,9 @@ WhatsApp, Instagram (@temde_tudolagoazul), horários (seg–sex 7h–18h, sáb 7
 
 ## ⚠️ Pendências
 
-1. **Foto da fachada**: salvar como `assets/img/fachada.jpg`. Enquanto não existir, aparece um painel de marca no lugar.
-2. **Mapa incorporado**: usa o endereço (nº 45). O botão "Abrir no Google Maps" usa o link oficial da loja. Se o pino do mapa incorporado ficar errado, trocar o `src` do iframe pelo código "Incorporar" do Google Maps.
-3. **Categorias**: "Base e estrutura" e "Hidráulica" correspondem à atividade registrada da empresa. Elétrica, tintas, ferragens e reparos são sugestões — **confirmar com o lojista** e ajustar em `index.html`.
+1. **Mapa incorporado**: usa o endereço (nº 45). O botão "Abrir no Google Maps" usa o link oficial da loja. Se o pino do mapa incorporado ficar errado, trocar o `src` do iframe pelo código "Incorporar" do Google Maps.
+2. **Detalhes dos corredores**: os seis corredores (Agropecuária, Ferragista, Materiais elétricos, Peças de moto, Óleo em geral, Produtos para piscina) vêm da placa da fachada. As etiquetas dentro de cada card são genéricas — **confirmar com o lojista** e trocar por produtos reais em `index.html`.
+3. **Logo da loja**: o site usa uma marca própria (T-régua amarela). Se a loja quiser usar o logo da fachada, enviar o arquivo original.
 
 ## Publicar no GitHub Pages
 

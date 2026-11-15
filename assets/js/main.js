@@ -75,7 +75,7 @@
       }
       const quem = nome.value.trim();
       const msg =
-        `Olá, Tem de Tudo!${quem ? ` Aqui é ${quem}.` : ""}\n` +
+        `Olá, Tem de Tudo Lago Azul!${quem ? ` Aqui é ${quem}.` : ""}\n` +
         `Gostaria de um orçamento destes materiais:\n\n${lista}`;
       hint.textContent = "Abrindo o WhatsApp…";
       window.open(waLink(msg), "_blank", "noopener");

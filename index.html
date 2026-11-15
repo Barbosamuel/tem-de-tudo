@@ -3,15 +3,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Tem de Tudo — Materiais de construção em Três Ranchos-GO</title>
-  <meta name="description" content="Materiais de construção em geral e materiais hidráulicos em Três Ranchos-GO. Monte sua lista e peça o orçamento direto pelo WhatsApp.">
+  <title>Tem de Tudo Lago Azul — Agropecuária e Ferragista em Três Ranchos-GO</title>
+  <meta name="description" content="Agropecuária e ferragista em Três Ranchos-GO: ferragens, materiais elétricos, peças de moto, óleo e produtos para piscina. Peça o orçamento direto pelo WhatsApp.">
   <meta name="theme-color" content="#ffc20e">
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
 
   <meta property="og:type" content="website">
   <meta property="og:locale" content="pt_BR">
-  <meta property="og:title" content="Tem de Tudo — Materiais de construção em Três Ranchos-GO">
-  <meta property="og:description" content="Do alicerce ao acabamento. Monte sua lista e peça o orçamento pelo WhatsApp.">
+  <meta property="og:title" content="Tem de Tudo Lago Azul — Agropecuária e Ferragista">
+  <meta property="og:description" content="Ferragens, agropecuária, materiais elétricos, peças de moto, óleo e produtos para piscina em Três Ranchos-GO.">
+  <meta property="og:image" content="https://barbosamuel.github.io/tem-de-tudo/assets/img/fachada.jpg">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,8 +23,10 @@
   {
     "@context": "https://schema.org",
     "@type": "HardwareStore",
-    "name": "Tem de Tudo",
-    "description": "Comércio varejista de materiais de construção em geral e materiais hidráulicos.",
+    "name": "Tem de Tudo Lago Azul",
+    "description": "Agropecuária e ferragista: ferragens, materiais elétricos, peças de moto, óleo e produtos para piscina.",
+    "image": "https://barbosamuel.github.io/tem-de-tudo/assets/img/fachada.jpg",
+    "telephone": "+5564999897341",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Avenida Coronel Levino Lopes, 45",
@@ -31,32 +34,56 @@
       "addressRegion": "GO",
       "postalCode": "75720-000",
       "addressCountry": "BR"
-    }
+    },
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "07:00", "closes": "18:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "07:00", "closes": "12:00" }
+    ]
   }
   </script>
 </head>
 <body>
   <!-- Ícones -->
   <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <!-- preenchidos -->
     <symbol id="i-wa" viewBox="0 0 24 24"><path d="M12 2.5a9.5 9.5 0 0 0-8.1 14.4L2.5 21.5l4.7-1.3A9.5 9.5 0 1 0 12 2.5zm0 1.9a7.6 7.6 0 1 1-3.9 14.1l-.3-.2-2.4.7.7-2.3-.2-.3A7.6 7.6 0 0 1 12 4.4zM9 7.8c-.3 0-.7.2-.9.6-.3.5-.5 1.1-.2 1.9.5 1.4 2 3.4 4.1 4.4 1.3.6 2.3.6 3 .4.6-.2 1.1-.8 1.2-1.4.1-.4 0-.5-.2-.6l-1.7-.8c-.2-.1-.4-.1-.6.1l-.7.9c-.1.1-.3.2-.5.1-.9-.4-2-1.1-2.7-2.3-.1-.2-.1-.4 0-.5l.5-.6c.1-.2.2-.4.1-.6l-.7-1.6c-.1-.3-.3-.5-.5-.5z"/></symbol>
     <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></symbol>
     <symbol id="i-check" viewBox="0 0 24 24"><path d="M9.5 16.6 5.4 12.5l-1.9 1.9 6 6 11-11-1.9-1.9z"/></symbol>
-    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M13 5l7 7-7 7-1.8-1.8 3.9-3.9H4v-2.6h11.1l-3.9-3.9z"/></symbol>
+
+    <!-- de traço (segmentos) -->
+    <symbol id="s-cow" viewBox="0 0 24 24">
+      <path d="M6.6 6.6C4.6 6.6 3 5.5 2.4 3.4M17.4 6.6C19.4 6.6 21 5.5 21.6 3.4"/>
+      <path d="M5.8 9 2.4 8c-.3 1.7.5 3.1 2.5 3.7M18.2 9l3.4-1c.3 1.7-.5 3.1-2.5 3.7"/>
+      <path d="M6 6.8c1.8-.9 3.7-1.3 6-1.3s4.2.4 6 1.3v6c0 1.9-.9 3.4-2.2 4.4V19a1 1 0 0 1-1 1H9.2a1 1 0 0 1-1-1v-1.8C6.9 16.2 6 14.700 6 12.800z"/>
+      <path d="M8.8 15.600c0-1.200 1.400-2 3.200-2s3.200.8 3.200 2v1.400c0 .9-1.400 1.500-3.200 1.500s-3.200-.6-3.200-1.500z"/>
+      <path d="M9.300 10.400h.01M14.700 10.400h.01M11 16h.01M13 16h.01" stroke-width="2.600"/>
+    </symbol>
+    <symbol id="s-wrench" viewBox="0 0 24 24"><path d="M14.700 6.300a1 1 0 0 0 0 1.400l1.600 1.600a1 1 0 0 0 1.400 0l3.770-3.770a6 6 0 0 1-7.940 7.940l-6.910 6.910a2.120 2.120 0 0 1-3-3l6.910-6.910a6 6 0 0 1 7.940-7.940l-3.760 3.760z"/></symbol>
+    <symbol id="s-bolt" viewBox="0 0 24 24"><path d="M13 2.500 4.500 13.500H11l-1 8 8.500-11H12z"/></symbol>
+    <symbol id="s-moto" viewBox="0 0 24 24">
+      <circle cx="5.500" cy="16.500" r="3"/><circle cx="18.500" cy="16.500" r="3"/>
+      <path d="M5.500 16.500 9 10h5.200l2 3.800 2.300 2.700M9 10 8 7.500H5.800M14.200 10l1.800-2.200h2.200M9 10l3.500 6.500h3.700"/>
+    </symbol>
+    <symbol id="s-drop" viewBox="0 0 24 24"><path d="M12 3s6 6.500 6 11a6 6 0 0 1-12 0c0-4.500 6-11 6-11z"/><path d="M9.500 14.500a2.800 2.800 0 0 0 2 2.600"/></symbol>
+    <symbol id="s-pool" viewBox="0 0 24 24">
+      <path d="M8 12.500V5a2 2 0 0 1 2-2M15 12.500V5a2 2 0 0 1 2-2M8 7.500h7M8 10.500h7"/>
+      <path d="M2.500 16c1.500 1.200 3 1.200 4.500 0s3-1.200 4.500 0 3 1.200 4.500 0 3-1.200 4.500 0M2.500 20.500c1.500 1.200 3 1.200 4.500 0s3-1.200 4.500 0 3 1.200 4.500 0 3-1.200 4.500 0"/>
+    </symbol>
   </svg>
 
   <a class="skip" href="#conteudo">Pular para o conteúdo</a>
 
   <header class="site-header">
     <div class="wrap header-row">
-      <a class="brand" href="#topo" aria-label="Tem de Tudo — início">
+      <a class="brand" href="#topo" aria-label="Tem de Tudo Lago Azul — início">
         <img src="assets/img/favicon.svg" alt="" width="44" height="44">
         <span class="brand-text">
-          <strong>Tem de Tudo</strong>
-          <small>Materiais de construção</small>
+          <strong>Tem de Tudo <i>Lago Azul</i></strong>
+          <small>Agropecuária e ferragista</small>
         </span>
       </a>
       <nav class="nav" aria-label="Principal">
-        <a href="#materiais">Materiais</a>
+        <a href="#produtos">Produtos</a>
         <a href="#orcamento">Orçamento</a>
         <a href="#sobre">A loja</a>
         <a href="#contato">Onde estamos</a>
@@ -74,13 +101,12 @@
     <section class="hero" id="topo">
       <div class="wrap hero-grid">
         <div class="hero-copy">
-          <p class="eyebrow">Três Ranchos · GO</p>
+          <p class="eyebrow">Agropecuária e ferragista · Três Ranchos-GO</p>
           <h1>
             <span class="line">Tem de</span>
-            <span class="line"><mark>tudo</mark> pra</span>
-            <span class="line">sua obra.</span>
+            <span class="line"><mark>tudo.</mark></span>
           </h1>
-          <p class="lead">Do alicerce ao acabamento: materiais de construção em geral e materiais hidráulicos. Mande sua lista pelo WhatsApp e receba o orçamento sem sair de casa.</p>
+          <p class="lead">Ferragens, agropecuária, materiais elétricos, peças de moto, óleo e produtos para piscina. Conte com a gente: mande sua lista pelo WhatsApp e receba o orçamento sem sair de casa.</p>
           <div class="cta-row">
             <a class="btn" data-wa="saudacao" href="#orcamento">
               <svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg>
@@ -93,17 +119,17 @@
           </div>
         </div>
 
-        <aside class="ticket" aria-label="Exemplo de lista de obra">
+        <aside class="ticket" aria-label="Exemplo de lista de compras">
           <div class="ticket-head">
-            <span>Lista da obra</span>
+            <span>Sua lista</span>
             <em>exemplo</em>
           </div>
           <ul class="ticket-list">
-            <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>Cimento e argamassa</li>
-            <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>Tubos e conexões</li>
-            <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>Fios e cabos</li>
-            <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>Tinta, rolo e pincel</li>
             <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>Parafusos e buchas</li>
+            <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>Fios e tomadas</li>
+            <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>Óleo para a moto</li>
+            <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>Produtos para piscina</li>
+            <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>Itens para a criação</li>
           </ul>
           <p class="ticket-foot">Faltou alguma coisa? Mande a foto da sua lista.</p>
         </aside>
@@ -112,55 +138,73 @@
 
     <div class="tape" aria-hidden="true"></div>
 
-    <!-- MATERIAIS -->
-    <section class="section" id="materiais">
+    <!-- PRODUTOS -->
+    <section class="section" id="produtos">
       <div class="wrap">
         <header class="section-head reveal">
           <p class="eyebrow">Corredores</p>
-          <h2>Tudo que a obra pede, <br>na ordem em que ela pede.</h2>
+          <h2>Da roça à piscina, <br>tem de tudo.</h2>
         </header>
 
         <div class="aisles">
           <article class="aisle reveal">
             <div class="aisle-sign"><span>Corredor</span><b>01</b></div>
-            <h3>Base e estrutura</h3>
-            <p>Para começar do jeito certo.</p>
-            <ul class="tags"><li>Cimento</li><li>Argamassa</li><li>Areia e brita</li><li>Tijolos e blocos</li><li>Ferro</li></ul>
+            <div class="aisle-title">
+              <svg class="ico-s aisle-icon" aria-hidden="true"><use href="#s-cow"/></svg>
+              <h3>Agropecuária</h3>
+            </div>
+            <p>Para o campo e para a criação.</p>
+            <ul class="tags"><li>Criação</li><li>Pecuária</li><li>Itens para o campo</li></ul>
           </article>
 
           <article class="aisle reveal">
             <div class="aisle-sign"><span>Corredor</span><b>02</b></div>
-            <h3>Hidráulica</h3>
-            <p>Água chegando e saindo sem dor de cabeça.</p>
-            <ul class="tags"><li>Tubos e conexões</li><li>Registros</li><li>Caixas d’água</li><li>Torneiras</li><li>Vedação</li></ul>
+            <div class="aisle-title">
+              <svg class="ico-s aisle-icon" aria-hidden="true"><use href="#s-wrench"/></svg>
+              <h3>Ferragista</h3>
+            </div>
+            <p>As peças que seguram a obra e o conserto.</p>
+            <ul class="tags"><li>Parafusos e buchas</li><li>Ferramentas</li><li>Fechaduras</li><li>Hidráulica</li><li>Materiais de construção</li></ul>
           </article>
 
           <article class="aisle reveal">
             <div class="aisle-sign"><span>Corredor</span><b>03</b></div>
-            <h3>Elétrica</h3>
+            <div class="aisle-title">
+              <svg class="ico-s aisle-icon" aria-hidden="true"><use href="#s-bolt"/></svg>
+              <h3>Materiais elétricos</h3>
+            </div>
             <p>Instalação segura, do quadro à tomada.</p>
             <ul class="tags"><li>Fios e cabos</li><li>Tomadas e interruptores</li><li>Disjuntores</li><li>Lâmpadas</li></ul>
           </article>
 
           <article class="aisle reveal">
             <div class="aisle-sign"><span>Corredor</span><b>04</b></div>
-            <h3>Tintas e acabamento</h3>
-            <p>A reta final que mostra o capricho.</p>
-            <ul class="tags"><li>Tintas</li><li>Massa corrida</li><li>Rolos e pincéis</li><li>Fitas e lixas</li></ul>
+            <div class="aisle-title">
+              <svg class="ico-s aisle-icon" aria-hidden="true"><use href="#s-moto"/></svg>
+              <h3>Peças de moto</h3>
+            </div>
+            <p>Para manter a moto rodando.</p>
+            <ul class="tags"><li>Peças</li><li>Reposição</li></ul>
           </article>
 
           <article class="aisle reveal">
             <div class="aisle-sign"><span>Corredor</span><b>05</b></div>
-            <h3>Ferramentas e ferragens</h3>
-            <p>Pequenas peças que seguram a obra inteira.</p>
-            <ul class="tags"><li>Parafusos e buchas</li><li>Fechaduras</li><li>Dobradiças</li><li>Ferramentas manuais</li></ul>
+            <div class="aisle-title">
+              <svg class="ico-s aisle-icon" aria-hidden="true"><use href="#s-drop"/></svg>
+              <h3>Óleo em geral</h3>
+            </div>
+            <p>Lubrificação para moto, máquina e equipamento.</p>
+            <ul class="tags"><li>Óleos</li><li>Lubrificantes</li></ul>
           </article>
 
           <article class="aisle reveal">
             <div class="aisle-sign"><span>Corredor</span><b>06</b></div>
-            <h3>Reparos do dia a dia</h3>
-            <p>Aquele conserto que não pode esperar.</p>
-            <ul class="tags"><li>Adesivos</li><li>Silicone</li><li>Fitas</li><li>Itens de manutenção</li></ul>
+            <div class="aisle-title">
+              <svg class="ico-s aisle-icon" aria-hidden="true"><use href="#s-pool"/></svg>
+              <h3>Produtos para piscina</h3>
+            </div>
+            <p>Água limpa o ano inteiro.</p>
+            <ul class="tags"><li>Tratamento</li><li>Limpeza</li><li>Acessórios</li></ul>
           </article>
         </div>
 
@@ -182,17 +226,17 @@
         </div>
 
         <form class="pad reveal" id="lista-form" novalidate>
-          <label class="pad-label" for="lista">Sua lista de materiais</label>
-          <textarea id="lista" name="lista" rows="7" placeholder="Ex.: 10 sacos de cimento&#10;3 tubos de PVC 50 mm&#10;1 lata de tinta branca"></textarea>
+          <label class="pad-label" for="lista">Sua lista</label>
+          <textarea id="lista" name="lista" rows="7" placeholder="Ex.: 2 metros de fio elétrico&#10;1 galão de óleo&#10;Produto para piscina"></textarea>
 
           <fieldset class="chips">
             <legend>Atalhos</legend>
-            <button type="button" data-item="Cimento">Cimento</button>
-            <button type="button" data-item="Argamassa">Argamassa</button>
-            <button type="button" data-item="Tubos e conexões">Tubos e conexões</button>
-            <button type="button" data-item="Fios e cabos">Fios e cabos</button>
-            <button type="button" data-item="Tinta">Tinta</button>
             <button type="button" data-item="Parafusos e buchas">Parafusos e buchas</button>
+            <button type="button" data-item="Fios e cabos">Fios e cabos</button>
+            <button type="button" data-item="Óleo">Óleo</button>
+            <button type="button" data-item="Peças de moto">Peças de moto</button>
+            <button type="button" data-item="Produtos para piscina">Produtos para piscina</button>
+            <button type="button" data-item="Itens de agropecuária">Agropecuária</button>
           </fieldset>
 
           <label class="pad-label" for="nome">Seu nome <span>(opcional)</span></label>
@@ -212,18 +256,17 @@
       <div class="wrap about-grid">
         <div class="reveal">
           <p class="eyebrow">A loja</p>
-          <h2>Atendimento de balcão, <br>sem complicação.</h2>
-          <p class="body-lg">A Tem de Tudo atende Três Ranchos e região com materiais de construção em geral e materiais hidráulicos. Chegou com a lista na mão — ou na tela do celular? A gente ajuda a separar.</p>
+          <h2>Conte com a gente, <br>do balcão ao WhatsApp.</h2>
+          <p class="body-lg">A Tem de Tudo Lago Azul é agropecuária e ferragista em Três Ranchos-GO. Chegou com a lista na mão — ou na tela do celular? A gente ajuda a separar.</p>
           <ul class="facts">
             <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>Lista em papel, foto ou mensagem: tudo serve</li>
             <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>Orçamento direto pelo WhatsApp</li>
-            <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>Fica no Centro de Três Ranchos</li>
+            <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>Entrega em Três Ranchos-GO</li>
           </ul>
         </div>
 
-        <!-- A foto aparece automaticamente quando existir assets/img/fachada.jpg -->
         <figure class="photo reveal">
-          <img src="assets/img/fachada.jpg" alt="Fachada da loja Tem de Tudo, na Avenida Coronel Levino Lopes" loading="lazy" onerror="this.closest('figure').classList.add('is-empty')">
+          <img src="assets/img/fachada.jpg" width="1149" height="625" alt="Fachada da loja Tem de Tudo Lago Azul, com placa de agropecuária e ferragista" loading="lazy" onerror="this.closest('figure').classList.add('is-empty')">
           <div class="photo-empty" aria-hidden="true">
             <span>Tem</span><span>de</span><span>Tudo</span>
           </div>
@@ -268,7 +311,7 @@
 
           <div class="map reveal">
             <iframe
-              title="Mapa: Tem de Tudo, Avenida Coronel Levino Lopes, 45, Três Ranchos-GO"
+              title="Mapa: Tem de Tudo Lago Azul, Avenida Coronel Levino Lopes, 45, Três Ranchos-GO"
               src="https://www.google.com/maps?q=Avenida+Coronel+Levino+Lopes%2C+45%2C+Tr%C3%AAs+Ranchos%2C+GO&amp;output=embed"
               loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
           </div>
@@ -279,7 +322,7 @@
 
   <footer class="site-footer">
     <div class="wrap footer-row">
-      <p><strong>Tem de Tudo</strong> · Materiais de construção · Três Ranchos-GO</p>
+      <p><strong>Tem de Tudo Lago Azul</strong> · Agropecuária e ferragista · Três Ranchos-GO</p>
       <p>Avenida Coronel Levino Lopes, 45 · Centro</p>
     </div>
   </footer>
