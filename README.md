@@ -8,8 +8,10 @@ Conceito: **"bancada de obra"** — o site se parece com o balcão de uma ferrag
 
 | Elemento | Escolha | Por quê |
 |---|---|---|
-| Amarelo `#ffc20e` | Cor principal | Cor de sinalização de obra: chama atenção e comunica "construção" |
-| Grafite `#17191b` | Texto, bordas, fundos escuros | Peso, solidez, contraste alto (leitura ao sol, no celular) |
+| Azul-índigo `#1f2a7a` | Cor de marca | Tirado da fachada da loja: cabeçalho, plaquinhas, seção de orçamento e rodapé |
+| Amarelo `#ffc20e` | Cor de ação | Botões e destaques; contraste forte sobre o azul e sinalização de ferragem |
+| Verde `#247a42` | Apoio pontual | Verde da placa, usado só no corredor de agropecuária |
+| Grafite-azulado `#12142b` | Texto e bordas | Peso, solidez, contraste alto (leitura ao sol, no celular) |
 | Papel `#f3efe6` | Fundo | Remete a lista de materiais / caderno de obra |
 | Barlow Condensed | Títulos | Letra de placa industrial, compacta e legível de longe |
 | Barlow | Texto | Neutra, boa leitura em telas pequenas |
