@@ -43,7 +43,7 @@ WhatsApp, Instagram (@temde_tudolagoazul), horários (seg–sex 7h–18h, sáb 7
 
 ## ⚠️ Pendências
 
-1. **Mapa incorporado**: usa o endereço (nº 45). O botão "Abrir no Google Maps" usa o link oficial da loja. Se o pino do mapa incorporado ficar errado, trocar o `src` do iframe pelo código "Incorporar" do Google Maps.
+1. **Mapa**: o cartão da seção "Onde estamos" abre o link oficial da loja (https://maps.app.goo.gl/Zq46HJdVCuTLz5pq8), então o pino é o correto. Para voltar a ter mapa incorporado, usar Compartilhar → Incorporar um mapa no Google Maps e colocar o `<iframe>` no lugar do cartão (`.map--card` em `index.html`).
 2. **Detalhes dos corredores**: os seis corredores (Agropecuária, Ferragista, Materiais elétricos, Peças de moto, Óleo em geral, Produtos para piscina) vêm da placa da fachada. As etiquetas dentro de cada card são genéricas — **confirmar com o lojista** e trocar por produtos reais em `index.html`.
 3. **Logo da loja**: o site usa uma marca própria (T-régua amarela). Se a loja quiser usar o logo da fachada, enviar o arquivo original.
 
