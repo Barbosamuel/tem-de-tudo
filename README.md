@@ -47,6 +47,10 @@ WhatsApp, Instagram (@temde_tudolagoazul), horários (seg–sex 7h–18h, sáb 7
 2. **Detalhes dos corredores**: os seis corredores (Agropecuária, Ferragista, Materiais elétricos, Peças de moto, Óleo em geral, Produtos para piscina) vêm da placa da fachada. As etiquetas dentro de cada card são genéricas — **confirmar com o lojista** e trocar por produtos reais em `index.html`.
 3. **Logo da loja**: o site usa uma marca própria (T-régua amarela). Se a loja quiser usar o logo da fachada, enviar o arquivo original.
 
+## Tema alternativo (teste)
+
+`/v2/` é uma segunda versão do visual ("pôr do sol no lago": cabeçalho em vidro, hero com gradiente de entardecer, ondas no lugar da régua, cards e botões arredondados). Usa os mesmos `config.js` e `main.js`, então os dados da loja valem para as duas. Para adotar, mover o conteúdo de `v2/` para a raiz e ajustar os caminhos `../assets/`.
+
 ## Publicar no GitHub Pages
 
 No GitHub: **Settings → Pages → Build and deployment → Source: Deploy from a branch → Branch: `main` / `(root)` → Save**.
