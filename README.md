@@ -51,6 +51,10 @@ WhatsApp, Instagram (@temde_tudolagoazul), horários (seg–sex 7h–18h, sáb 7
 
 `/v2/` é uma segunda versão do visual ("pôr do sol no lago": cabeçalho em vidro, hero com gradiente de entardecer, ondas no lugar da régua, cards e botões arredondados). Usa os mesmos `config.js` e `main.js`, então os dados da loja valem para as duas. Para adotar, mover o conteúdo de `v2/` para a raiz e ajustar os caminhos `../assets/`.
 
+## Tema v3 (com movimento)
+
+`/v3/` é o v2 com motion design: sol que se põe ao carregar e afunda ao rolar, estrelas piscando e estrela cadente, ondas em loop, título que sobe palavra por palavra, foto da fachada flutuando, faixa de categorias em movimento, cards com inclinação 3D e ícones animados no hover, botão de WhatsApp com pulso, barra de progresso de leitura e pino do mapa quicando. Respeita `prefers-reduced-motion` (quem desativa animações no aparelho vê a página parada). Arquivos próprios: `v3/style.css` e `v3/motion.js`; usa os mesmos `config.js` e `main.js`.
+
 ## Publicar no GitHub Pages
 
 No GitHub: **Settings → Pages → Build and deployment → Source: Deploy from a branch → Branch: `main` / `(root)` → Save**.
